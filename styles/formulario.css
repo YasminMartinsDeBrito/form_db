@@ -10,7 +10,7 @@ div.container{
     transform: translate(-50%,-50%) ;
     background-color: rgba(0,0,0,0.8);
     border-radius: 10px;
-    height: 90%;
+    height: 470px
 }
 form{
     padding: 5px;
@@ -36,6 +36,7 @@ div.div_form{
 label{
     font-size: 10px;
     margin-bottom: 0;
+    color: #fff;
 }
 input{
    width: 90%;
