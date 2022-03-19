@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/formulario.css">
+    <title>Formulario eletronico</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <form method="POST" action="cadastro.php">
+        <fieldset>
+          <legend><strong>Cadastro</strong></legend>
+          <div class="div_form">
+            <input
+              type="text"
+              name="nome"
+              id="nome"
+              class="inputUser"
+              required
+            />
+            <label class="inputUser" for="nome">Nome completo</label>
+          </div>
+          <div class="div_form">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="inputUser"
+              required
+            />
+            <label  class="inputUser" for="email"> Email</label>
+          </div>
+          <div class="div_form">
+            <input
+              type="tel"
+              name="telefone"
+              id="telefone"
+              class="inputUser"
+              required
+            />
+            <label class="inputUser" for="telefone"> Telefone</label>
+          </div>
+          <div class="div_form">
+            <input
+              type="text"
+              name="cidade"
+              id="cidade"
+              class="inputUser"
+              required
+            />
+            <label  class="inputUser" for="cidade"> Cidade</label>
+          </div>
+          <div class="div_form">
+            <input
+              type="text"
+              name="estado"
+              id="estado"
+              class="inputUser"
+              required
+            />
+            <label class="inputUser" for="estado"> Estado</label>
+          </div>
+          <div class="div_form">
+            <input type="text" name="rua" id="rua" class="inputUser" required />
+            <label class="inputUser" for="rua"> Rua</label>
+          </div>
+          <input type="submit" name="submit" id="submit" />
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
